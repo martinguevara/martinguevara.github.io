@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>My Webpage</title>
+<nav class="navbar">
+  <div class="brand"><a href="https://ide-9387e3ce3cde4a78b866ab4f681d3432-8080.cs50.ws/index.html"><span class="dot"></a></span></div>
+  <div class="navbar-links">
+    <ul>
+      <br>
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn">Projects</button>
+            <div class="dropdown-content">
+              <a href="https://ide-9387e3ce3cde4a78b866ab4f681d3432-8080.cs50.ws/yelp.html">Yelp</a>
+              <a href="https://ide-9387e3ce3cde4a78b866ab4f681d3432-8080.cs50.ws/thescore.html">theScore</a>
+              <a href="https://ide-9387e3ce3cde4a78b866ab4f681d3432-8080.cs50.ws/elysian.html">Elysian</a>
+            </div>
+        </div></li>
+      <li><a href="https://ide-9387e3ce3cde4a78b866ab4f681d3432-8080.cs50.ws/sounds.html">Sounds</a></li>
+    </ul>
+  </div>
+</nav>
+
+<body>
+    <div class="content">
+        <h3 class="secname">Concept</h3>
+        <p class="pdesc">Browsing Yelp on the web is a different experience from using the mobile app. At its core, Yelp crowd-sources reviews on businesses. However, 70% of reviews come from the restaurant industry.
+        If that is the case, I thought it was reasonable to create features which focus user activity in these businesses.<br><br>
+
+        The redesign primarily focuses on providing the user a personalized "journey" in any given city. There are two main aspects in the app that I changed to reflect that goal: structure and visualization.
+        </p>
+        <div class="imgdesc">
+            <img class="imgyelp" src="https://lh3.googleusercontent.com/wnvCW_OGJ0dEXMaOyt7xfy6l7xy4UdFeIsDRDwei6DY4qAtERrDJ0eJRqgeVXBS-tZNyGZf5LjJdyAWP9FoU4lN4i89OFilJVbZSpG7Jkf-iOc_tMiAmDqMfDWwviMYMWapxtvXP6w=w2400">
+
+        </div>
+            <p class="imgfooter">The original landing page for Yelp's mobile app</p>
+
+        <h3 class="secname">Structure</h3>
+        <p class="pdesc">Initially, I was greeted by a search bar along with a group of businesses to choose from. Suggestions are always welcome especially to new users, but I saw a minor disconnect. As seen above, there are suggestions for a handyman, and with my options, plumbing businesses were presented alongside restaurants.
+        Although they are businesses, suggesting these niche services off the bat may unsettle new users.<br><br>
+        More often than not, the users looking for a niche service like that will search for it. If the app already addresses users who know what they want,
+        then that leaves the users who don’t. This is where structure comes into play. From the user’s perspective, businesses are also experiences. That means they can be categorized like so. After all, that is the main basis of users’ reviews on the app.
+</p>
+        <div class="imgdesc">
+            <img class="imgyelp2" src="https://lh3.googleusercontent.com/t0jH9Is9CK95voSYnbp4Ip3rbVjdWmUEuUZEgSfaGCk9T01lWw_p95dbaAn6dS7TTk_Mk23CD6MBD5JVSwGQk8axMT45jVB4ZO_x8bo7NpnEgo9g21Bz6CvFtVrRVbIxHDIr9KRdxQ=w2400">
+
+        </div>
+            <p class="imgfooter">Businesses in Yelp categorized as experiences</p>
+
+        <p class="pdesc">I categorized all of Yelp's listed businesses into three buckets. The thought process here was to break down people's living situation in any given area. At any given time, there are the essential sites which are valuable to any city, professional services which sustains a person in that area, and
+        there are what I'd like to call the cultural areas: places where people can take pleasure in.</p>
+        <p class="pdesc">Yelp is ultimately driven by its users' reviews, so here are some ideas to put users at the center of the experience: <br><br>
+
+        <b>Showcasing collections:</b> Collections are an in-app feature created by users which feature a curated list of businesses.
+        This not only shows the value of users, but it also drives activity on the app. Curation creates a potential network effect, allowing the discovery of multiple new places.
+        (some list ideas include "adulting 101" for professional services, best spots for dates, and other niche activities)</p>
+        <div class="imgdesc">
+            <img class="imgyelp" src="https://lh3.googleusercontent.com/iPx2AagF4vVTUI4Qd4IR-FK8X2Ju2cXAWFeUCliHbcumh_OtJojFMs3upa4x_YImP2wLNiK2jui_kMQFTHC47m4-NQL6qaZEnvder8EMmiFRsTHE10Lz2ysbIZ3iYZFRCzbESk0O7w=w2400">
+            <img class="imgyelp" src="https://lh3.googleusercontent.com/5QbbZLKiiF7R1eLbsOEdbSY_qV5EBctVFP4OwWSsT1skpXRlP71kJdLsQX8McraIJx_HlnprZvZsi5uTrBMWsRT9WFNXWs_UhZcPBRPCZ5KuMgjpcrPRzBhh9A8inaMQ7wnQeHB4Fg=w2400">
+        </div>
+            <p class="imgfooter">Showcase collections at the home page, and a landing page for a "Collections" section.</p>
+
+
+        <p class="pdesc"><b>Placing businesses in smaller buckets:</b> Categorizing businesses as experiences creates a call to action. Further, using this specific language
+        emphasizes that businesses are ultimately driven by the users' activity. The buckets also help eliminate the <i>paradox of choice</i> that users face when presented
+        with over ten businesses to select from.
+        </p>
+        <div class="imgdesc">
+            <img class="imgyelp" src="https://lh3.googleusercontent.com/CwVf1CUPGWzMQFsTiS7JTmbvK0a2q1Y86EtNMVbwDqTLW9H3RqDDkd9ty6JjmPTKDAXejfGBNIdcDr5bL5SzvKeqGtq1j187XIiHDawlvRecjU5CuI89ZY03isGXNYXsnmvuy0bnvQ=w2400">
+        </div>
+         <p class="imgfooter">Businesses are categorized into activities to "minimize" choice</p>
+
+        <h3 class="secname">Visualize</h3>
+        <p class="pdesc">While it is a review-focused product, I thought that Yelp could benefit from elements of a social network. Adding photo previews of collections and
+        businesses alike makes the interface seem like a feed. They entice the user to learn more about a business in a way that text may not do as effectively. </p>
+        <div class="imgdesc">
+            <video class="vidyelp" autoplay mute loop width="720" height="480">
+                <source src="yelpproto.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <p class="imgfooter">Photos are used to preview items across the app</p>
+    </div>
+
+
+     <footer class="footer">
+   <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <a href="mailto: martinguevara0621@gmail.com"><div class="about">Martin Guevara</div></a>
+          </div>
+          <div class="links">
+           <div class="social-links">
+           <a href="https://www.facebook.com/martin.guevara.52012"><i class="fab fa-facebook-f"></i></a>
+           <a href="https://www.linkedin.com/in/martinguevara/"><i class="fab fa-linkedin-in"></i></a>
+           <a href="https://www.instagram.com/_martinguevara/"><i class="fab fa-instagram"></i></a></div>
+          </div>
+        </div>
+  </footer>
+
+
+</body>
