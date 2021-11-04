@@ -40,6 +40,7 @@ max-width: 100%;
 font-size: 82px;
 font-weight: 400;
 line-height: 1.2;
+letter-spacing: -2px;
 }
 
 .playnow {
@@ -125,6 +126,35 @@ width: 85vw;
 height: 49vh;
 margin-left: 40px !important;
 }
+
+.listcover {
+width: 20px;
+height: 20px;
+}
+
+.listname {
+font-size: 42px !important;
+font-weight: bold !important;
+letter-spacing: -0.5px !important;
+line-height: 40px !important;
+text-align: center !important;
+}
+
+.playlist {
+display: block !important;
+width: 80vw !important;
+}
+
+.leftp {
+text-align: left !important;
+padding: 1em 0 0 0;
+}
+
+.rightp {
+
+padding: 0 0 1em 0.25em !important;
+}
+
 }
 
 .navbar {
@@ -157,8 +187,9 @@ list-style: none !important;
 text-decoration: none !important;
 color: white;
 padding: 0.5rem !important;
-display: block !important;
-}
+display: block !important;}
+
+
 
 
 @media (max-width: 400px) {
@@ -511,6 +542,40 @@ margin-right: auto !important;
 display: inline-block;
 }
 
+.listcover {
+width: 220px;
+height: 220px;
+}
+
+.listname {
+font-size: 64px;
+font-weight: 600;
+letter-spacing: -2px;
+line-height: 60px;
+}
+
+.playlist {
+display: flex;
+width: 100%;
+max-height: 100%;
+}
+
+.leftp {
+flex: 1 0 50%;
+max-width: 30%;
+text-align: center;
+
+}
+
+.rightp {
+flex: 0 1 50%;
+max-width: 70%;
+text-align: left !important;
+
+padding: 1em 0 0 0;
+}
+
+
 .imgfooter {
 color: gray;
 font-size: 16px;
@@ -585,4 +650,5 @@ height: 35vh;
 #final2{
   height: 25vh !important;
 }
+
 }
