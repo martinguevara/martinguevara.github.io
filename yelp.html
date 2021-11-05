@@ -2,6 +2,7 @@
 
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -42,7 +43,7 @@
 
                 The redesign primarily focuses on providing the user a personalized "journey" in any given city. There are two main aspects in the app that I changed to reflect that goal: structure and visualization.</p>
             </div>
-            <div class="right-ycontainer">
+            <div class="right-ycontainer" data-aos="fade-left" data-aos-duration="1000">
                     <img class="imgyelp" src="https://lh3.googleusercontent.com/wnvCW_OGJ0dEXMaOyt7xfy6l7xy4UdFeIsDRDwei6DY4qAtERrDJ0eJRqgeVXBS-tZNyGZf5LjJdyAWP9FoU4lN4i89OFilJVbZSpG7Jkf-iOc_tMiAmDqMfDWwviMYMWapxtvXP6w=w2400">
                     <p class="imgfooter">The original landing page for Yelp's mobile app</p>
             </div>
@@ -53,7 +54,7 @@
             <p class="pdesc">Initially, I was greeted by a search bar along with a group of businesses to choose from. Suggestions are always welcome especially to new users, but I saw a minor disconnect.<br><br>
 As seen above, there are suggestions for a handyman. Similarly, plumbing businesses were presented alongside restaurants. Although they are businesses, suggesting these niche services off the bat may unsettle new users.</p>
         </div>
-        <img class="imgyelp2" src="https://lh3.googleusercontent.com/7eS-1wty2VK2kbHoSu6d_TS5JetHdXPnBEYxX1H8oWUVJi8mqwffX1JFZwJNzH7VNArTdyIOVwjm6zUrzWC_czzsCbTvwerYM8HsXlPzkSCgn4MnkMqigY6WiZlQ-ubZ4phb47vznw=w2400">
+        <img class="imgyelp2" src="https://lh3.googleusercontent.com/7eS-1wty2VK2kbHoSu6d_TS5JetHdXPnBEYxX1H8oWUVJi8mqwffX1JFZwJNzH7VNArTdyIOVwjm6zUrzWC_czzsCbTvwerYM8HsXlPzkSCgn4MnkMqigY6WiZlQ-ubZ4phb47vznw=w2400" data-aos="fade-in" data-aos-duration="1000" >
         <p class="imgfooter">Businesses in Yelp categorized as experiences</p>
         <div class="ycontainer">
             <p class="pdesc">
@@ -69,14 +70,14 @@ Yelp is ultimately driven by its users' reviews, so here are some ideas to put u
                 <p class="pdesc"><b>Showcasing collections:</b> Collections are an in-app feature created by users which feature a curated list of businesses. This not only shows the value of users, but it also drives activity on the app.<br><br>
                 Curation creates a potential network effect, allowing the discovery of multiple new places. (some list ideas include "adulting 101" for professional services, best spots for dates, and other niche activities)</p>
             </div>
-            <div class="right-ycontainer2">
+            <div class="right-ycontainer2" data-aos="fade-left" data-aos-duration="1000">
                 <img class="imgyelp" src="https://lh3.googleusercontent.com/GrybTRk6o8UPIHlfvo19obu9n5YXvcWY08U5znZYNyQvIwKcZ7ww6AuZgjspbw5TRyO-BtlbrA27KvfLvmSHAspJBTWIrlv4rUj6uNzwDJ3RkwqNf_0WeAWKGvf_jSBDpeo3zuZeWg=w2400">
                 <img class="imgyelp" src="https://lh3.googleusercontent.com/kaldA1mrJOKCGZijgYnI1suQPodN0XSOhFIDL3qzNsxGS31id3jHxSLBevXuf3Qm329h0yvk4ijCTkqeyAZ_OUe8o_6f-kQao1_vuBE3ML4jOtbkUDUGq8euIiGbMypLtlp_rekQQw=w2400">
                 <p class="imgfooter">Showcase collections at the home page, and a landing page for a "Collections" section.</p>
             </div>
         </div>
         <div class="ycontainer">
-            <div class="left-ycontainer">
+            <div class="left-ycontainer" data-aos="fade-right" data-aos-duration="1000">
                 <img class="imgyelp" src="https://lh3.googleusercontent.com/MkoO5jvNo0pZvTmKZgaTMm5VjhtFN0XqaBEzfQhdyCqOufLKy6kq3UKu7oArilaWogsS-_lrgp37KIU4U1dhgvV4hs1HTxTnSj0YpZyfxWdLALSL4GVFsbmXY_hKvp6LzDZUww_Q3Q=w2400">
                 <p class="imgfooter">Businesses are categorized into activities to "minimize" choice</p>
             </div>
@@ -118,5 +119,8 @@ The buckets also help eliminate the paradox of choice that users face when prese
         </div>
   </footer>
 
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
