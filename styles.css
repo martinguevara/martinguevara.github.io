@@ -122,6 +122,7 @@ p {
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
   line-height: 1.2;
+  letter-spacing: -1px !important;
 }
 .playnow {
 width: 85vw;
